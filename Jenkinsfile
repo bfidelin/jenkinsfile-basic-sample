@@ -26,7 +26,7 @@ node {
   script {
     step([$class: "RundeckNotifier",
           includeRundeckLogs: true,
-          jobId: "a62ec870-8094-4baa-8dd8-cb6a824e4415"
+          jobId: "a62ec870-8094-4baa-8dd8-cb6a824e4415",
           nodeFilters: "",
           options: """
                    PARAM_1=value1
