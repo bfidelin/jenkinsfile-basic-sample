@@ -24,7 +24,7 @@ node {
             sh """echo 'shell scripts to deploy to server...'
 	          export RD_URL=http://rundeck:4440
 		  export RD_USER=admin                                    
-		  export RD_PASSWORD=mypass
+		  export RD_PASSWORD=admin
 		  export RD_COLOR=0
 		  rd run  -j playbook_nginx.yml  -p CICD 
                """
